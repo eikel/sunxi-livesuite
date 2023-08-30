@@ -10,7 +10,7 @@ Ubuntu is known to cause problems. Just use Debian, really. It's the superior OS
 
 Here's a bunch of commands to copy-paste into a **rootshell**:
 ```
-apt install -y build-essential git bison flex linux-headers-amd64 dkms autogen automake libtool m4 zlib1g-dev
+apt install -y build-essential git bison flex linux-headers-amd64 dkms autogen automake libtool m4 zlib1g-dev fastboot
 
 git clone https://github.com/hypfer/valetudo-sunxi-livesuit
 cd sunxi-livesuit/awusb
