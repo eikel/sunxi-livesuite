@@ -13,7 +13,7 @@ Here's a bunch of commands to copy-paste into a **rootshell**:
 apt install -y build-essential git bison flex linux-headers-amd64 dkms autogen automake libtool m4 zlib1g-dev fastboot
 
 git clone https://github.com/hypfer/valetudo-sunxi-livesuit
-cd sunxi-livesuit/awusb
+cd valetudo-sunxi-livesuit/awusb
 make -j2
 cp awusb.ko /lib/modules/`uname -r`/kernel/
 /sbin/depmod -a
