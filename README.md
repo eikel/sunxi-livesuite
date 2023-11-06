@@ -12,7 +12,7 @@ Ubuntu is known to cause problems. Just use Debian, really. It's the superior OS
 If you're using a recent-ish computer for this, make sure that `Secure Boot` is disabled in the BIOS or else the kernel
 will refuse to load the unsigned freshly built `awusb` module.
 
-With that out of the way, here's a bunch of commands to copy-paste into a **rootshell**:
+With that out of the way, here are a bunch of commands to copy-paste into a **rootshell**:
 ```
 apt install -y build-essential git bison flex linux-headers-amd64 dkms autogen automake libtool m4 zlib1g-dev fastboot
 
