@@ -29,8 +29,6 @@ cd libpng-1.2.54/
 ./autogen.sh
 ./configure
 make -j2
-make install
-/sbin/ldconfig
 cd ..
 
 ./LiveSuit.sh
