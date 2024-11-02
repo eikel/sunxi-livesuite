@@ -5,6 +5,7 @@ This repository is a fork of the [https://github.com/linux-sunxi/sunxi-livesuite
 
 This readme assumes that you have just installed a fresh copy of [Debian Bookworm](https://www.debian.org/releases/bookworm/) with some kind of GUI (e.g. KDE).
 Commands may vary based on your Linux-Distribution. I **strongly** recommend a fresh install for this to not taint your main one.
+You should not use a virtual machine (VM), as this is likely to cause problems in detecting the USB device.
 
 Ubuntu is known to cause problems. Just use Debian, really. It's the superior OS anyway.
 
