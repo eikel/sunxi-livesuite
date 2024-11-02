@@ -16,4 +16,4 @@ fi
 echo "Starting ${BIN_DIR}/${APP}."
 echo ""
 
-LD_LIBRARY_PATH=${TOP_DIR}/${BIN_DIR}/ ${BIN_DIR}/${APP}
+LD_LIBRARY_PATH=${TOP_DIR}/libpng-1.2.54/.libs:${TOP_DIR}/${BIN_DIR}/ ${BIN_DIR}/${APP}
